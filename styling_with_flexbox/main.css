@@ -3,3 +3,39 @@
 }
 
 
+.brand-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    margin: 0 auto;
+    font-size: 24px;
+}
+.nav-menu{
+width: auto;
+}
+.nav-list{
+  display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-list a {
+    text-decoration: none;
+    color:black;
+}
+
+
+.article{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.article-img{
+    width: 200px;
+    margin-right: 20px;
+}
+.article-text{
+    flex: 1;
+}
