@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Styling the layout</title>
+</head>
+<body>
+<!--
+Task:
+Task: Styling the page layout
+
+There are three main sections on the page: the top bar, the bottom bar, and the main content .article. Your tasks are:
+
+Styling .article:
+
+Set the maximum width (max-width) to 70%.
+Set the padding to 40px on all sides.
+Apply the box-sizing property to correctly include padding in the width calculation.
+Styling buttons:
+
+There is a button .btn-primary on the page. Apply the following:
+Padding of 15px 30px.
+A bottom margin of 10px.
+Change the button’s display to block so that it displays correctly in a line.
+Photo gallery:
+
+At the bottom of the page, there is an .image-gallery that contains horizontal images. Apply the following:
+overflow-x: scroll; to enable horizontal scrolling.
+Make sure that the images in .image-gallery do not wrap to the next line.
+
+-->
+
+<header class="top-bar">
+    <p>Top Bar</p>
+</header>
+
+<main class="article">
+    <h2>Main Article Content</h2>
+    <p>This is an example of the main article content.</p>
+
+    <a href="#" class="btn-primary">Learn more</a>
+</main>
+
+<section class="image-gallery">
+    <div class="gallery-content">
+    <img src="./photo/a.webp" alt="cool_character">
+    <img src="./photo/b.webp" alt="magic_teleport">
+    <img src="./photo/c.webp" alt="Fight_with_a_demon">
+    </div>
+</section>
+
+
+<footer class="bottom-bar">
+    <p>Bottom-bar</p>
+</footer>
+</body>
+</html>
