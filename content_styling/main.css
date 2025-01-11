@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.content-section{
+    font-family: serif ;
+    font-size: 18px;
+    line-height: 1.8em;
+    color: #333;
+}
+h1{
+   font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: darkblue;
+    font-weight:normal ;
+}
+h2{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: darkblue;
+    font-weight:normal ;
+}
+blockquote{
+    background-color: #f9f9f9;
+    font-style: italic;
+    color: #666;
+}
+cite{
+    background-color: #eee;
+    font-style: italic;
+    color: #777;
+}
