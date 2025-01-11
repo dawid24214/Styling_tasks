@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.feature{
+    display: flex;
+    gap: 15px;
+    align-items: start;
+}
+.features-section{
+    padding: 40px 20px;
+}
+.feature-icon{
+    font-size: 32px;
+}
+.features-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px ;
+    flex-wrap: wrap;
+}
