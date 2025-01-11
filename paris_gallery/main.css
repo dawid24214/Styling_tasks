@@ -1,0 +1,27 @@
+.content-container{
+    width: 720px;
+    max-width: 90%;
+    padding: 40px;
+    background-color: rgba(245, 245, 245, 0.9);
+    font-size: 16px;
+    line-height: 1.6em;
+    color: rgba(0,0,0, 0.8);
+}
+h1{
+font-size: 40px;
+    color: #004080;
+    line-height: 1.3em;
+}
+h2{
+    color: #004080;
+    font-size: 34px;
+    line-height: 1.1;
+}
+
+.gallery a{
+    max-width: 48%;
+    padding: 5px;
+}
+.gallery img{
+    max-width: 100%;
+}
