@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+/*task1*/
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*task2*/
+.product-grid{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+/*Task3*/
+.article-content{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+/*Task4*/
+.sidebar-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
