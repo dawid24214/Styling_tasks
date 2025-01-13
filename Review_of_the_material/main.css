@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Task1*/
+
+.content-box{
+    font-family: serif;
+    font-size: 20px;
+    line-height: 1.8em;
+    color: #333;
+    background-color: rgba(240,240,240, 0.9);
+    padding: 40px;
+}
+
+
+/*Task2 and Task 4 Done*/
+
+  h1 , h3{
+      font-family: Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: darkgreen;
+}
+h1{
+    font-size: 2.5em;
+}
+h3{
+   font-size:  1.8em;
+}
+
+/*Task3*/
+
+
+blockquote{
+    background-color: #f5f5f5;
+    margin: 30px;
+    font-style: italic;
+    color: #444444;
+}
+cite{
+    text-align: right;
+    color: #777777;
+    background-color: #e0e0e0;
+    display: block;
+}
+
+
