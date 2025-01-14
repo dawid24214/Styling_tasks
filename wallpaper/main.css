@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+.cat{
+    width: 600px;
+    height: 400px;
+    background: url("picture/cat.jpg");
+    background-position: center;
+    background-size: cover;
+}
