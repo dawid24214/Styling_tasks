@@ -1,0 +1,30 @@
+.menu{
+    list-style: none;
+    padding: 10px ;
+    display: flex;
+    gap: 20px;
+    background-color: rgba(68, 68, 68, 0.35);
+    box-shadow: 0 1px 15px rgba(0 ,0 , 0, 0.1);
+    height: 30px;
+    max-height: 55px;
+
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+
+a{
+    text-decoration: none;
+    color: #150a09;
+    text-transform: initial;
+    font-family: "Century Gothic", serif;
+
+}
+.menu a:hover{
+    color: whitesmoke;
+}
+
+.books{
+    list-style: decimal;
+    margin-left: 20px;
+}
