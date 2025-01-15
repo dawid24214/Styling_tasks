@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+h1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid gray;
+
+}
+table td{
+border: 1px solid #aaa;
+    padding: 20px;
+}
+table th{
+   border: 1px solid #aaa;
+    background-color: gold;
+    padding: 20px;
+}
