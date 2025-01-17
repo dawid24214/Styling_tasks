@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 1300px;
+    height: 1400px;
+    margin: 0 auto;
+    padding: 0 ;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+header{
+    background-color: rgba(119, 119, 119, 0.08);
+}
+
+.brand-logo{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.brand-logo{
+    font-family: "Century Gothic", serif;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(4, 85, 255, 0.48);
+
+}
+.nav-list{
+    display: flex;
+
+    justify-content: space-around;
+    width: 40em;
+
+}
+.nav-list{
+    list-style: none;
+    color: #444444;
+    font-family: Arial, sans-serif;
+
+    height: 100%;
+
+}
+
+a{
+
+}
+
+a:hover{
+    color: darkgray;
+    cursor: pointer;
+}
+
+
+
+
