@@ -8,13 +8,13 @@ body{
     margin: 0 auto;
     padding: 0 ;
 }
-header{
+nav{
     display: flex;
     justify-content: space-around;
 
 
 }
-header{
+nav {
     background-color: rgba(119, 119, 119, 0.08);
 }
 
@@ -29,7 +29,7 @@ header{
     font-style: italic;
     font-size: 2em;
     font-weight: bold;
-    color: rgba(4, 85, 255, 0.48);
+    color: rgb(54, 0, 148);
 
 }
 .nav-list{
@@ -55,6 +55,15 @@ a{
 a:hover{
     color: darkgray;
     cursor: pointer;
+}
+
+main{
+    background-color:rgba(0, 0, 0, 0.1);
+    height: 50%;
+}
+article{
+    background-color: rgba(250, 5, 5, 0.1);
+    height: 10%;
 }
 
 
